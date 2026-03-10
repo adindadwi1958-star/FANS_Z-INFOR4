@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | FANS_Z Informatika 4</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        body { font-family: 'Plus Jakarta Sans', sans-serif; background-color: #0f172a; }
+        .glass { background: rgba(255, 255, 255, 0.03); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.05); }
+    </style>
+</head>
+<body class="text-slate-200 min-h-screen">
+
+    <!-- Navigasi -->
+    <nav class="fixed top-0 w-full z-50 glass">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center gap-2">
+                <div class="bg-blue-600 p-1.5 rounded-lg"><i data-lucide="terminal" class="text-white w-5 h-5"></i></div>
+                <span class="text-xl font-extrabold tracking-tighter text-white">FANS_Z<span class="text-blue-500 italic">.</span></span>
+            </div>
+            <div class="hidden md:flex gap-8 text-sm font-medium uppercase tracking-widest text-slate-400">
+                <a href="index.html" class="hover:text-white transition">Home</a>
+                <a href="about.html" class="text-blue-400">About Us</a>
+                <a href="projects.html" class="hover:text-white transition">Projects</a>
+                <a href="galleries.html" class="hover:text-white transition">Galleries</a>
+                <a href="contact.html" class="hover:text-white transition">Contact Us</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="pt-32 pb-20 px-6">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-black text-white mb-4">ANGGOTA TIM</h2>
+                <div class="h-1.5 w-20 bg-blue-600 mx-auto rounded-full"></div>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6">
+                <!-- Member Cards -->
+                <div class="glass p-6 rounded-[2rem] text-center group hover:border-blue-500/50 transition duration-500">
+                    <div class="w-24 h-24 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-2xl mx-auto mb-6 flex items-center justify-center text-3xl font-black text-white shadow-xl">F</div>
+                    <h3 class="text-lg font-bold text-white mb-1 group-hover:text-blue-400 transition">Fajar</h3>
+                    <p class="text-xs text-slate-500 uppercase tracking-widest font-bold mb-4">Ketua Tim</p>
+                    <div class="flex justify-center gap-3 opacity-0 group-hover:opacity-100 transition-opacity">
+                        <i data-lucide="instagram" class="w-4 h-4 cursor-pointer hover:text-white"></i>
+                        <i data-lucide="github" class="w-4 h-4 cursor-pointer hover:text-white"></i>
+                    </div>
+                </div>
+
+                <div class="glass p-6 rounded-[2rem] text-center group hover:border-blue-500/50 transition duration-500">
+                    <div class="w-24 h-24 bg-gradient-to-br from-purple-500 to-pink-600 rounded-2xl mx-auto mb-6 flex items-center justify-center text-3xl font-black text-white shadow-xl">A</div>
+                    <h3 class="text-lg font-bold text-white mb-1 group-hover:text-blue-400 transition">Andini</h3>
+                    <p class="text-xs text-slate-500 uppercase tracking-widest font-bold mb-4">UI/UX Designer</p>
+                    <div class="flex justify-center gap-3 opacity-0 group-hover:opacity-100 transition-opacity">
+                        <i data-lucide="instagram" class="w-4 h-4 cursor-pointer hover:text-white"></i>
+                    </div>
+                </div>
+
+                <div class="glass p-6 rounded-[2rem] text-center group hover:border-blue-500/50 transition duration-500">
+                    <div class="w-24 h-24 bg-gradient-to-br from-emerald-500 to-teal-600 rounded-2xl mx-auto mb-6 flex items-center justify-center text-3xl font-black text-white shadow-xl">N</div>
+                    <h3 class="text-lg font-bold text-white mb-1 group-hover:text-blue-400 transition">Naufal</h3>
+                    <p class="text-xs text-slate-500 uppercase tracking-widest font-bold mb-4">Programmer</p>
+                    <div class="flex justify-center gap-3 opacity-0 group-hover:opacity-100 transition-opacity">
+                        <i data-lucide="github" class="w-4 h-4 cursor-pointer hover:text-white"></i>
+                    </div>
+                </div>
+
+                <div class="glass p-6 rounded-[2rem] text-center group hover:border-blue-500/50 transition duration-500">
+                    <div class="w-24 h-24 bg-gradient-to-br from-amber-500 to-orange-600 rounded-2xl mx-auto mb-6 flex items-center justify-center text-3xl font-black text-white shadow-xl">S</div>
+                    <h3 class="text-lg font-bold text-white mb-1 group-hover:text-blue-400 transition">Salsabila</h3>
+                    <p class="text-xs text-slate-500 uppercase tracking-widest font-bold mb-4">Sekretaris</p>
+                    <div class="flex justify-center gap-3 opacity-0 group-hover:opacity-100 transition-opacity">
+                        <i data-lucide="instagram" class="w-4 h-4 cursor-pointer hover:text-white"></i>
+                    </div>
+                </div>
+
+                <div class="glass p-6 rounded-[2rem] text-center group hover:border-blue-500/50 transition duration-500">
+                    <div class="w-24 h-24 bg-gradient-to-br from-rose-500 to-red-600 rounded-2xl mx-auto mb-6 flex items-center justify-center text-3xl font-black text-white shadow-xl">Z</div>
+                    <h3 class="text-lg font-bold text-white mb-1 group-hover:text-blue-400 transition">Zaki</h3>
+                    <p class="text-xs text-slate-500 uppercase tracking-widest font-bold mb-4">Hardware Specialist</p>
+                    <div class="flex justify-center gap-3 opacity-0 group-hover:opacity-100 transition-opacity">
+                        <i data-lucide="github" class="w-4 h-4 cursor-pointer hover:text-white"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>lucide.createIcons();</script>
+</body>
+</html>
