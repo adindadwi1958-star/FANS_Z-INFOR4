@@ -10,6 +10,8 @@
     <style>
         body { font-family: 'Plus Jakarta Sans', sans-serif; background-color: #0f172a; }
         .glass { background: rgba(255, 255, 255, 0.03); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.05); }
+        .member-img { object-fit: cover; filter: grayscale(20%); transition: all 0.5s ease; }
+        .member-img:hover { filter: grayscale(0%); transform: scale(1.05); }
     </style>
 </head>
 <body class="text-slate-200 min-h-screen">
@@ -36,58 +38,76 @@
             <div class="text-center mb-16">
                 <h2 class="text-4xl font-black text-white mb-4">ANGGOTA TIM</h2>
                 <div class="h-1.5 w-20 bg-blue-600 mx-auto rounded-full"></div>
+                <p class="text-slate-400 mt-4 max-w-xl mx-auto">Berkenalan dengan para pengembang muda dibalik FANS_Z Informatika 4.</p>
             </div>
 
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6">
-                <!-- Member Cards -->
-                <div class="glass p-6 rounded-[2rem] text-center group hover:border-blue-500/50 transition duration-500">
-                    <div class="w-24 h-24 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-2xl mx-auto mb-6 flex items-center justify-center text-3xl font-black text-white shadow-xl">F</div>
-                    <h3 class="text-lg font-bold text-white mb-1 group-hover:text-blue-400 transition">Fajar</h3>
-                    <p class="text-xs text-slate-500 uppercase tracking-widest font-bold mb-4">Ketua Tim</p>
-                    <div class="flex justify-center gap-3 opacity-0 group-hover:opacity-100 transition-opacity">
-                        <i data-lucide="instagram" class="w-4 h-4 cursor-pointer hover:text-white"></i>
-                        <i data-lucide="github" class="w-4 h-4 cursor-pointer hover:text-white"></i>
+                <!-- Falisya -->
+                <div class="glass p-4 rounded-[2.5rem] text-center group hover:border-blue-500/50 transition duration-500">
+                    <div class="aspect-square rounded-[2rem] overflow-hidden mb-6 border border-white/5">
+                        <img src="https://lh3.googleusercontent.com/d/16RvzJqC0k57FvYmz18Mwpj6iSo5rDpC6" alt="Foto Falisya" class="member-img w-full h-full" onerror="this.src='https://ui-avatars.com/api/?name=Falisya&background=2563eb&color=fff'">
+                    </div>
+                    <h3 class="text-lg font-bold text-white mb-1 group-hover:text-blue-400 transition">Falisya</h3>
+                    <p class="text-[10px] text-slate-500 uppercase tracking-widest font-black mb-4">ketua tim</p>
+                    <div class="flex justify-center gap-3">
+                        <a href="#" class="text-slate-500 hover:text-white"><i data-lucide="instagram" class="w-4 h-4"></i></a>
                     </div>
                 </div>
 
-                <div class="glass p-6 rounded-[2rem] text-center group hover:border-blue-500/50 transition duration-500">
-                    <div class="w-24 h-24 bg-gradient-to-br from-purple-500 to-pink-600 rounded-2xl mx-auto mb-6 flex items-center justify-center text-3xl font-black text-white shadow-xl">A</div>
-                    <h3 class="text-lg font-bold text-white mb-1 group-hover:text-blue-400 transition">Andini</h3>
-                    <p class="text-xs text-slate-500 uppercase tracking-widest font-bold mb-4">UI/UX Designer</p>
-                    <div class="flex justify-center gap-3 opacity-0 group-hover:opacity-100 transition-opacity">
-                        <i data-lucide="instagram" class="w-4 h-4 cursor-pointer hover:text-white"></i>
+                <!-- Adinda -->
+                <div class="glass p-4 rounded-[2.5rem] text-center group hover:border-blue-500/50 transition duration-500">
+                    <div class="aspect-square rounded-[2rem] overflow-hidden mb-6 border border-white/5">
+                        <img src="https://lh3.googleusercontent.com/d/1pug2dX7QY0jeSH8pQCreRPt2qk8UycBf" alt="Foto Adinda" class="member-img w-full h-full" onerror="this.src='https://ui-avatars.com/api/?name=Adinda&background=8b5cf6&color=fff'">
+                    </div>
+                    <h3 class="text-lg font-bold text-white mb-1 group-hover:text-blue-400 transition">Adinda</h3>
+                    <p class="text-[10px] text-slate-500 uppercase tracking-widest font-black mb-4">anggota</p>
+                    <div class="flex justify-center gap-3">
+                        <a href="#" class="text-slate-500 hover:text-white"><i data-lucide="instagram" class="w-4 h-4"></i></a>
                     </div>
                 </div>
 
-                <div class="glass p-6 rounded-[2rem] text-center group hover:border-blue-500/50 transition duration-500">
-                    <div class="w-24 h-24 bg-gradient-to-br from-emerald-500 to-teal-600 rounded-2xl mx-auto mb-6 flex items-center justify-center text-3xl font-black text-white shadow-xl">N</div>
-                    <h3 class="text-lg font-bold text-white mb-1 group-hover:text-blue-400 transition">Naufal</h3>
-                    <p class="text-xs text-slate-500 uppercase tracking-widest font-bold mb-4">Programmer</p>
-                    <div class="flex justify-center gap-3 opacity-0 group-hover:opacity-100 transition-opacity">
-                        <i data-lucide="github" class="w-4 h-4 cursor-pointer hover:text-white"></i>
+                <!-- Nopy -->
+                <div class="glass p-4 rounded-[2.5rem] text-center group hover:border-blue-500/50 transition duration-500">
+                    <div class="aspect-square rounded-[2rem] overflow-hidden mb-6 border border-white/5">
+                        <img src="https://lh3.googleusercontent.com/d/1z4T8J0tlTWcaqYy_Yr8HazmxCL17TSzd" alt="Foto Nopy" class="member-img w-full h-full" onerror="this.src='https://ui-avatars.com/api/?name=Nopy&background=10b981&color=fff'">
+                    </div>
+                    <h3 class="text-lg font-bold text-white mb-1 group-hover:text-blue-400 transition">Nopy</h3>
+                    <p class="text-[10px] text-slate-500 uppercase tracking-widest font-black mb-4">anggota</p>
+                    <div class="flex justify-center gap-3">
+                        <a href="#" class="text-slate-500 hover:text-white"><i data-lucide="github" class="w-4 h-4"></i></a>
                     </div>
                 </div>
 
-                <div class="glass p-6 rounded-[2rem] text-center group hover:border-blue-500/50 transition duration-500">
-                    <div class="w-24 h-24 bg-gradient-to-br from-amber-500 to-orange-600 rounded-2xl mx-auto mb-6 flex items-center justify-center text-3xl font-black text-white shadow-xl">S</div>
-                    <h3 class="text-lg font-bold text-white mb-1 group-hover:text-blue-400 transition">Salsabila</h3>
-                    <p class="text-xs text-slate-500 uppercase tracking-widest font-bold mb-4">Sekretaris</p>
-                    <div class="flex justify-center gap-3 opacity-0 group-hover:opacity-100 transition-opacity">
-                        <i data-lucide="instagram" class="w-4 h-4 cursor-pointer hover:text-white"></i>
+                <!-- Selly -->
+                <div class="glass p-4 rounded-[2.5rem] text-center group hover:border-blue-500/50 transition duration-500">
+                    <div class="aspect-square rounded-[2rem] overflow-hidden mb-6 border border-white/5">
+                        <img src="https://lh3.googleusercontent.com/d/1jXnjLiycVz5K4Jmo9qno6LdgYrhshg8c" alt="Foto Selly" class="member-img w-full h-full" onerror="this.src='https://ui-avatars.com/api/?name=Selly&background=f59e0b&color=fff'">
+                    </div>
+                    <h3 class="text-lg font-bold text-white mb-1 group-hover:text-blue-400 transition">Selly</h3>
+                    <p class="text-[10px] text-slate-500 uppercase tracking-widest font-black mb-4">anggota</p>
+                    <div class="flex justify-center gap-3">
+                        <a href="#" class="text-slate-500 hover:text-white"><i data-lucide="instagram" class="w-4 h-4"></i></a>
                     </div>
                 </div>
 
-                <div class="glass p-6 rounded-[2rem] text-center group hover:border-blue-500/50 transition duration-500">
-                    <div class="w-24 h-24 bg-gradient-to-br from-rose-500 to-red-600 rounded-2xl mx-auto mb-6 flex items-center justify-center text-3xl font-black text-white shadow-xl">Z</div>
-                    <h3 class="text-lg font-bold text-white mb-1 group-hover:text-blue-400 transition">Zaki</h3>
-                    <p class="text-xs text-slate-500 uppercase tracking-widest font-bold mb-4">Hardware Specialist</p>
-                    <div class="flex justify-center gap-3 opacity-0 group-hover:opacity-100 transition-opacity">
-                        <i data-lucide="github" class="w-4 h-4 cursor-pointer hover:text-white"></i>
+                <!-- Zaskia -->
+                <div class="glass p-4 rounded-[2.5rem] text-center group hover:border-blue-500/50 transition duration-500">
+                    <div class="aspect-square rounded-[2rem] overflow-hidden mb-6 border border-white/5">
+                        <img src="https://lh3.googleusercontent.com/d/1tHJVfhzzFPHSXlT01ITfM6wLtQvXhwI6" alt="Foto Zaskia" class="member-img w-full h-full" onerror="this.src='https://ui-avatars.com/api/?name=Zaskia&background=ef4444&color=fff'">
+                    </div>
+                    <h3 class="text-lg font-bold text-white mb-1 group-hover:text-blue-400 transition">Zaskia</h3>
+                    <p class="text-[10px] text-slate-500 uppercase tracking-widest font-black mb-4">anggota</p>
+                    <div class="flex justify-center gap-3">
+                        <a href="#" class="text-slate-500 hover:text-white"><i data-lucide="instagram" class="w-4 h-4"></i></a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <footer class="py-10 border-t border-white/5 text-center">
+        <p class="text-slate-500 text-sm">© 2024 FANS_Z Informatika 4. XII Informatika Squad.</p>
+    </footer>
 
     <script>lucide.createIcons();</script>
 </body>
